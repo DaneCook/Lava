@@ -4,6 +4,36 @@ import { Container, Row, Col, Button } from "reactstrap";
 
 function LoginPage() {
 
+    /*
+    function fadeTransition() {
+        let outerLayer = [];
+
+        let innerLayer = [];
+
+        let stripOne = document.getElementsByClassName("one");
+        let stripFive = document.getElementsByClassName("five");
+        outerLayer.push(stripOne);
+        outerLayer.push(stripFive);
+
+        for (let i=0; i < outerLayer.length; i++) {
+            outerLayer[i].style.visibility = "hidden";
+        }
+
+        let stripTwo = document.getElementsByClassName("two");
+        let stripFour = document.getElementsByClassName("four");
+        outerLayer.push(stripTwo);
+        outerLayer.push(stripFour);
+
+        for (let i=0; i < innerLayer.length; i++) {
+            innerLayer[i].style.visibility = "hidden";
+        }
+
+        let stripThree = document.getElementsByClassName("three");
+        stripThree.style.visibility = "none";
+
+    }
+    */
+
     return(
         <Container className="container-fluid strip" id="login-container">
             <Row>

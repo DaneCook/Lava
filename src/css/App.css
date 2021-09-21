@@ -48,38 +48,73 @@
 
 }
 
+h1#logo.logo {
+  font-weight: 100;
+  color: white;
+  font-size: 3rem;
+}
 
 container#login-container.container.strip {
-   max-width: 2000px;
-   width: 100vw; 
+  max-width: 2000px; 
+  width: 100vw; 
 }
 
 #login-container {
   margin-right: 0px !important; 
   margin-left: 0px !important;
   max-width: 2000px !important;
+  background: linear-gradient(-45deg, #ffe957, #ed852b, #e30000, #ffb357);
+	background-size: 100% 100%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 button.login-btn {
   width: 75%;
   height: 20%;
-  max-height: 20%;
-  min-height: 20%;
   border-radius: 25px;
+  font-weight: 100;
+  color: black;
+  background-color: white;
+  border: 1px solid white;
 }
 
-.one {
-  background-color: red;
+button.login-btn:hover {
+  color: white;
+  border: 2px solid white;
+  background: linear-gradient(-45deg, #ffe957, #ed852b, #e30000, #ffb357);
+	background-size: 100% 100%;
+	animation: gradient 15s ease infinite;
 }
 
-.two {
-  background-color: cyan;
-}
 
-.four {
-  background-color: green;
+/*
+.one, .two, .three, .four, .five {
+  background: linear-gradient(-45deg, #ffe957, #ed852b, #e30000, #ffb357);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh; 
 }
-
-.five {
-  background-color: yellow;
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
+*/
