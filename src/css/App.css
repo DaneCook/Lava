@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  margin: 0px;
+}
+
+
+.strip {
+  height: 100vh;
+}
+
+.login-buttons {
+  height: 40%;
+  width: 60%;
+}
+
+
+
+/* Tablet Media Queries */
+
+@media (max-width: 768px ) {
+
+  .login-buttons {
+    width: 70%;
+  }
+}
+
+/* Mobile Media Queries */
+
+@media (max-width: 600px) {
+  
+  button.login-btn {
+    width: 50%;
+    height: 20%;
+    border-radius: 25px;
+  }
+
+  .login-buttons {
+    width: 80%;
+  }
+
+ h1#logo.logo {
+    font-size: 2rem;
+  }
+
+}
+
+
+container#login-container.container.strip {
+   max-width: 2000px;
+   width: 100vw; 
+}
+
+#login-container {
+  margin-right: 0px !important; 
+  margin-left: 0px !important;
+  max-width: 2000px !important;
+}
+
+button.login-btn {
+  width: 75%;
+  height: 20%;
+  max-height: 20%;
+  min-height: 20%;
+  border-radius: 25px;
+}
+
+.one {
+  background-color: red;
+}
+
+.two {
+  background-color: cyan;
+}
+
+.four {
+  background-color: green;
+}
+
+.five {
+  background-color: yellow;
+}
